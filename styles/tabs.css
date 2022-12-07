@@ -1,0 +1,88 @@
+.tabs__menu{
+    max-height: 40px;
+    display:flex;
+    list-style-type: none;
+    margin: 99px auto 0px auto; 
+    padding:0;
+}
+
+.tabs__menu__frame-active{
+    width: 203px;
+    height: 40px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+.tabs__menu__frame{
+    width: 184px;
+    height: 40px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabs__main-field{
+    display:flex;
+    list-style-type: none;
+    border: 1px solid #000;
+    margin: 0 auto; 
+    padding:0;
+}
+.tabs__main-field__text-content{
+    width: 700px;
+    max-height: 500px;
+}
+.tabs__main-field__text-content__header{
+    max-width:570px;
+    max-height:124px;
+    border: 0px solid #000000;
+    margin: 0px 0px 27px 100px ; 
+    padding: 28px 28px 28px 0px;
+    box-sizing: border-box;
+
+    font-family: 'OpenSans',sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+
+}
+
+.tabs__main-field__text-content__text{
+    max-width:570px;
+    max-height:210px;
+    border: 0px solid #000000;
+    margin: 0px 0px 27px 100px; 
+    
+    box-sizing: border-box;
+    justify-content: center; 
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    color: #000000;
+
+    text-align: left;  
+}
+.tabs__main-field__text-content__button{
+    color: white;
+    background: #EC7979;
+    border: 1px solid #EC7979;
+    width: 270px;
+    height: 58px;
+    margin:0px 0px 54px 100px;
+    
+}
+.tabs__main-field__text-content__button:hover{
+    cursor: pointer;
+    background-color:#AB4949;
+
+}
+.tabs__main-field__img-content{
+    max-width: 470px;
+    max-height: 500px;
+    padding-left: 30px;
+}

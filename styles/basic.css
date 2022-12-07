@@ -24,3 +24,48 @@ h1, h2, h3{
     font-family: 'OpenSans';
     
 }
+
+.title__h2{
+    max-width:1170px;
+    max-height:150px;
+    border: 0px solid #000000;
+    margin: 99px auto 0px auto; 
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+  
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    color: #000000;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;   
+}
+.separator{
+    max-width:170px;
+    max-height:0px;
+    border: 1px solid #EC7979;
+    margin: 0 auto; 
+    box-sizing: border-box;
+    
+}
+.epigraph__p{
+    max-width:1169px;
+    height:21px;
+    border: 0px solid #000000;
+    margin: 40px auto 71px auto; 
+    box-sizing: border-box;
+    justify-content: center;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

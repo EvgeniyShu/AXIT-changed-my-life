@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Inter';
-    src: local('Inter') url('../fonts/Inter-VariableFont_slnt\,wght.woff') format('woff');
+    src: local('Inter') url('../fonts/Inter.woff') format('woff');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: OpenSans;
-    src: local('OpenSans') url('../fonts/OpenSans-VariableFont_wdth\,wght.woff') format('woff');
+    src: local('OpenSans') url('../fonts/OpenSans.woff') format('woff');
     font-style: normal;
     font-weight: 700;
     font-display: swap;
