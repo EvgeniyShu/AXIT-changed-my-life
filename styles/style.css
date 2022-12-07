@@ -1,0 +1,207 @@
+.menu{
+    max-height: 40px;
+    display:flex;
+    list-style-type: none;
+    margin: 99px auto 0px auto; 
+    padding:0;
+   
+}
+
+.menu__main{
+    width: 203px;
+    height: 40px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+.menu__additional{
+    width: 184px;
+    height: 40px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.main_field{
+    display:flex;
+    list-style-type: none;
+    border: 1px solid #000;
+    margin: 0 auto; 
+    padding:0;
+}
+.main_field__text_content{
+    width: 700px;
+    max-height: 500px;
+}
+.main_field__text_content-header{
+    max-width:570px;
+    max-height:124px;
+    border: 0px solid #000000;
+    margin: 0px 0px 27px 100px ; 
+    padding: 30px 30px 30px 0px;
+    box-sizing: border-box;
+
+    font-family: 'OpenSans',sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    color: #000000;
+
+}
+
+.main_field__text_content-text{
+    max-width:570px;
+    max-height:210px;
+    border: 0px solid #000000;
+    margin: 0px 0px 27px 100px; 
+    padding: 30px 30px 30px 0px;
+    box-sizing: border-box;
+    justify-content: center; 
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    color: #000000;
+
+    text-align: left;  
+}
+.main_field__text_content-button{
+    color: white;
+    background: #EC7979;
+    border: 1px solid #EC7979;
+    width: 270px;
+    height: 58px;
+    margin:0px 0px 0px 100px;
+    
+}
+.main_field__text_content-button:hover{
+    cursor: pointer;
+    background-color:#AB4949;
+
+}
+.main_field__img_content-wrap{
+    max-width: 470px;
+    max-height: 500px;
+    padding: 3px 0px 0px 30px;
+}
+
+.title{
+    max-width:1170px;
+    max-height:150px;
+    border: 0px solid #000000;
+    margin: 99px auto 0px auto; 
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+  
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    color: #000000;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;   
+}
+.separator{
+    max-width:170px;
+    max-height:0px;
+    border: 1px solid #EC7979;
+    margin: 0 auto; 
+    box-sizing: border-box;
+    
+}
+.epigraph{
+    max-width:1169px;
+    height:21px;
+    border: 0px solid #000000;
+    margin: 40px auto 71px auto; 
+    box-sizing: border-box;
+    justify-content: center;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cards{
+    display:flex;
+    list-style-type: none;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.cards__border{
+   
+    width: 370px;
+    height: 383px;
+    padding: 0px 15px 0px 15px;
+    text-align: center; 
+
+
+}
+.cards__icon_wrap{
+    width:170px;
+    height:170px;
+    margin: 0 auto; 
+    padding:30px;
+    box-sizing: border-box;
+text-align: center;
+}
+.cards__icon_wrap__round_cover{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 50%;
+
+}
+.cards__header{
+    max-height: 100px;
+    max-width: 369px;
+    margin: 0px 0px 8px 0px; 
+    box-sizing: border-box;
+    justify-content: center;
+
+    font-family: 'OpenSans';
+    font-size: 24px;
+    text-align: center;
+}
+.cards__text{
+    height: 105px;
+    width: 370px;
+        
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cards__icon_wrap_for-retangle{
+height: 46px;
+width: 66px;
+margin: 23px auto;
+box-sizing: border-box;
+text-align: center;
+}
+
+.cards__icon_wrap_for-square{
+height: 65.29px;
+width: 65.29px;
+margin: 13px auto;
+box-sizing: border-box;
+text-align: center;
+}
