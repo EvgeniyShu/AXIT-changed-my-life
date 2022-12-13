@@ -1,20 +1,13 @@
-.html{
+html{
     min-width: 375px;
-    
-  }
-.section{
     width: 100%;
-    max-width: 1510px;
-    margin:0 auto;
-
-font-family: 'Inter',sans-serif;
+    font-family: 'Inter',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
+    
 }
-.body{
-    margin:0px;
-}
+
 .container{
     max-width: 1170px;
     margin-left: auto;
@@ -38,10 +31,10 @@ h1, h2, h3{
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    display: flex;
+   
     color: #000000;
     text-transform: uppercase;
-    align-items: center;
+    
     text-align: center;   
 }
 .separator{
@@ -65,7 +58,5 @@ h1, h2, h3{
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
-    display: flex;
-    align-items: center;
     text-align: center;
 }
