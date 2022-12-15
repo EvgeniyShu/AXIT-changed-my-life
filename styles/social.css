@@ -1,0 +1,55 @@
+.social{
+    background-color:#f8efef ;
+
+   
+}
+.board{
+    height: 140px;
+    display:flex;
+    flex-flow:column wrap;
+    
+    
+   
+}
+.social__h4{
+    display: flex;
+    margin:2px 0px 18px 0px;
+    flex:0 1 60px;   
+ 
+font-family: 'OpenSans',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+align-items: center;
+color:#333333;
+
+}
+.social__p{
+    display: flex;
+    margin: 0;
+    flex:0 1 50px;
+    max-width: 470px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B 
+}
+.icon_frame{
+    display: flex;
+    flex:0 1 140px;
+    align-items: center;
+    justify-content: center;
+   
+    
+    gap: 30px;
+}
+.icon{
+    width: 70px;
+    height: 70px;  
+}
+.icon:hover{
+    cursor: pointer;
+}
