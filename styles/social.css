@@ -3,8 +3,13 @@
 
    
 }
-.board{
-    height: 140px;
+.social__border{
+    display:flex;
+    flex-flow:row wrap;
+    gap: 30px;
+}
+.social__text{
+    width:39%;
     display:flex;
     flex-flow:column wrap;
     
@@ -30,21 +35,18 @@ color:#333333;
     flex:0 1 50px;
     max-width: 470px;
 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Raleway',sans-serif;
+   
     font-size: 18px;
-    line-height: 21px;
+   
     color: #86878B 
 }
 .icon_frame{
+    width:57%;
     display: flex;
-    flex:0 1 140px;
     align-items: center;
-    justify-content: center;
-   
-    
-    gap: 30px;
+    justify-content: space-between;
+    gap: auto;
 }
 .icon{
     width: 70px;

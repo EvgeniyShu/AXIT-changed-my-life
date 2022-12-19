@@ -7,22 +7,71 @@
     <title>AXIT Modern Design Stidio</title>
     <link rel="icon" href="./images/favicon.png" type="image/x-icon" >
     <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/banner.css">
     <link rel="stylesheet" href="./styles/basic.css">
     <link rel="stylesheet" href="./styles/social.css">
     <link rel="stylesheet" href="./styles/tabs.css">
     <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="./styles/pricing.css">   
+    <link rel="stylesheet" href="./styles/pricing.css">
+    <link rel="stylesheet" href="./styles/reviews.css">
+    <link rel="stylesheet" href="./styles/small_banner.css"> 
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">  
 </head>
-<body>
-    <header class="header">
-      
+<body id="top">
+    <header id="header" class="header">
+      <div class="container">
+        <div class="headeer__border">
+        <div class="headeer__border__logo">
+            <a href="#top">
+                <img class="header__icon"  src="./images/logo.svg" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="headeer__border__navigation">
+                <li><a href="#about">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#social">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
     </header>
     <main>
-        <section class="social">
+        <section class="banner" >
+          <div class="banner__image">
+                <div class="container">
+                <div class="banner__block">
+              <div class="banner__block-text">
+                <div class="banner__block-text__icon">
+                <img class="banner__icon"  src="./images/logo.svg" alt="logo">
+                </div>
+                <h1 class="banner__block-text__h1">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <p class="banner__block-text__p">I wish you a Marry Christmas and <br> Happy New Year<br>
+                    The fact that I couldn't have made up my mind about this post was because of one big one. I felt so sad when I saw that a fan post came up with a love story between Marry Christmas and "The Stinky Doctor: Misfit Princess". So I'm pretty happy in that I have gotten the opportunity to write a fan film for this show that I think will go a long way to supporting the show. The fans who have sent me all the love messages and support they've got
+                </p>
+                <button class="banner__block-text__button">Download</button>
+              </div> 
+              <div class="banner__block-form">
+                    <div class="banner__block-form__trial-container">
+                        <h4 class="banner__block-form__trial-container-header">Try Your FREE Trial Today</h4>
+                        <button class="banner__block-form__trial-container-button">Get Started</button>
+                    </div>
+              </div>
+            </div> 
+            </div>
+        </div>
+        </section>
+        <section id="social" class="social">
         <div  class="container">
-            <div class="board">
-        <h4 class="social__h4">Social Media</h4>
-        <p class="social__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            <div class="social__border">
+            <div class="social__text">
+        <h4 class="social__text-h4">Social Media</h4>
+        <p class="social__text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </div>
         <div class="icon_frame">
           <img class="icon" src="./images/section_social/facebook.svg" alt="facebook_icon">
           <img class="icon" src="./images/section_social/twitter.svg" alt="twitter_icon">
@@ -60,7 +109,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
             <h2 class="title__h2">Why this is awesome</h2>
             <P class="separator"></p>
@@ -99,7 +148,7 @@
             </ul>
             </div>
         </section>
-        <section class="pricing">
+        <section id="pricing" class="pricing">
             <div class="container">
                 <h2 class="title__h2">Pricing options</h2>
                 <P class="separator"></p>
@@ -141,6 +190,96 @@
             </div>
         </div>
         </section>
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="title__h2">what our customers are saying</h2>
+                <P class="separator"></p>
+                <p class="epigraph__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
+            <div class="reviews__cards" >
+                    <div class="reviews__cards__border">
+                    <div class="reviews__cards__border__about">
+                        <img class="reviews__cards__border__about-img" src="./images/section_reviews/Davis Rhiel Madsen.png" alt="Davis Rhiel Madsen">
+                        <div class="reviews__cards__border__about__text">
+                            <h4>Davis Rhiel Madsen</h4>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                    <div class="reviews__cards__border__opinion">
+                        <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</p>
+                    </div>
+                </div>
+                <div class="reviews__cards__border">
+                    <div class="reviews__cards__border__about">
+                        <img class="reviews__cards__border__about-img" src="./images/section_reviews/Jaydon Rosser.png" alt="Jaydon Rosser.">
+                        <div class="reviews__cards__border__about__text">
+                            <h4>Jaydon Rosser</h4>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                    <div class="reviews__cards__border__opinion">
+                        <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</p>
+                    </div>
+                    </div>
+                    <div class="reviews__cards__border">
+                        <div class="reviews__cards__border__about">
+                            <img class="reviews__cards__border__about-img" src="./images/section_reviews/Cooper Dorwart.png" alt="Cooper Dorwart">
+                            <div class="reviews__cards__border__about__text">
+                                <h4>Cooper Dorwart</h4>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                        <div class="reviews__cards__border__opinion">
+                            <p>Lorem ipsum dolor sit amet, 
+                                consectetur adipisicing elit. Doloribus 
+                                accusamus expedita repellat similique 
+                                odio aspernatur ex, architecto eaque 
+                                quo suscipit.</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <section class="small-banner">
+            <div class="small-banner__image">
+            <div class="container">
+                <h2 class="title__h2">STYLISH AXURE DESIGN</h2>
+                <P class="separator"></p>
+                <p class="epigraph__p">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+                <button class="small-banner__button">Download</button>  
+            </div>
+        </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2 class="title__h2">contact us</h2>
+                <P class="separator"></p>
+                <p class="epigraph__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="contact__inputs">
+
+                </div>
+                <button class="contact__button">Send Message</button> 
+                </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="footer__icon_frame">
+            <img class="footer__icon" src="./images/section_social/facebook.svg" alt="facebook_icon">
+            <img class="footer__icon" src="./images/section_social/twitter.svg" alt="twitter_icon">
+            <img class="footer__icon" src="./images/section_social/linkedin.svg" alt="linkedin_icon">  
+            <img class="footer__icon" src="./images/section_social/pinterest.svg" alt="pinterest_icon">
+            <img class="footer__icon" src="./images/section_social/instagram.svg" alt="instagram_icon">
+            <img class="footer__icon" src="./images/section_social/github.svg" alt="github_icon">
+            <img class="footer__icon" src="./images/section_social/rss.svg" alt="rss_icon">
+          </div>
+          <p class="footer__p">© 2015 Axure Themes</p>
+    </footer>
 </body>
 </html>

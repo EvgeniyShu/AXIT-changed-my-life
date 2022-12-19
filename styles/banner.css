@@ -1,0 +1,136 @@
+.banner{
+    background-color:rgb(2, 2, 2);
+    width:100%;
+    height: 100%;
+    background: url(../images/section_banner/pexels-brett-sayles-1708601.webp), url(../images/section_banner/pexels-brett-sayles-1708601.jpg) 100% 100% no-repeat; 
+    background-size: cover; 
+}
+
+
+.background-image{
+    width:100%;
+    height: 950px;
+    background-image: cover;
+}
+.banner__block{
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.banner__block-text{
+    width:57%;
+    display: flex;
+    flex-flow: column ;
+    justify-content: space-between;
+}
+.banner__block-text__icon{
+padding:21.7% 0px 5.4% 0px;
+margin-left: -10px;
+}
+.banner__icon{
+    width:270px;
+    height: 100px;
+}
+
+.banner__block-text__h1{
+    color:#FFFFFF ;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 5.8%;
+
+    font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+}
+.banner__block-text__h1::after{
+    content: '';
+    display: flex;
+ border: 1px solid #FFFFFF;
+ width: 170px;
+ height: 1px;
+}
+.banner__block-text__p{
+    color: #FFFFFF;
+    margin: 42px 0px;
+
+    font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+}
+.banner__block-text__button{
+    width: 270px;
+    height: 58px;
+    margin-bottom: 185px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #ffffff;
+}
+
+.banner__block-text__button:hover{
+    cursor: pointer;
+    border: 1px solid #ec7979;
+    color:#ec7979;
+}
+
+.banner__block-text__button:active{
+    cursor: pointer;
+    border: 1px solid #ab4949;
+    background-color:#ab4949 ;
+    color:#ffffff;
+}
+.banner__block-form{
+    display: flex;
+    width:39%;
+    line-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.banner__block-form__trial-container{
+   
+    width:100%;
+    border: 1px solid #ec7979;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    
+}
+.banner__block-form__trial-container-header{
+    width:78%;
+    color:#333333;
+    text-align: center;
+    justify-content: center;
+    margin-bottom:300px ; /** удалить после внесения форм**/
+
+    font-family: 'Open Sans',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-transform: uppercase;
+
+}
+.banner__block-form__trial-container-button{
+    height: 60px; 
+    width:100%;
+    border: 1px solid #ec7979;
+    background-color: #ec7979;
+    color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+}
+.banner__block-form__trial-container-button:hover{
+    border: 1px solid #ab4949;
+    background-color: #ab4949;
+    cursor: pointer;
+}
+.banner__block-form__trial-container-button:active{
+    border: 1px solid #ec7979;
+    background-color: #ec7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+    cursor: pointer;
+}

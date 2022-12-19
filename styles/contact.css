@@ -1,0 +1,29 @@
+.contact__inputs{
+    height: 500px;
+}
+
+.contact__button{
+    display: block;
+    align-self: center;
+     margin: 0 auto 50px auto;
+     width: 370px;
+     height: 58px; 
+     cursor: pointer;
+     
+     background-color: #ec7979;
+     border: 1px solid #ec7979;
+     color: #ffffff;
+ }
+ 
+ .contact__button:hover{
+     cursor: pointer;
+     border: 1px solid #ab4949;
+     background-color: #ab4949;
+ }
+ 
+ .contact__button:active{
+     cursor: pointer;
+     border: 1px solid #ab4949;
+     background-color:#ec7979 ;
+     
+ }

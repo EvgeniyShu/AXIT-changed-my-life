@@ -1,0 +1,27 @@
+.footer{
+    background-color: #000000;
+}
+.footer__icon_frame{
+    display: flex;
+    width:100%;
+    gap: 32.8px;
+    margin-bottom:  27.8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__icon{
+    width: 53.2px;
+    height: 53.2px;
+    padding-top: 35px;
+}
+.footer__icon:hover{
+    cursor: pointer;
+}
+.footer__p{
+    color: rgba(255, 255, 255, 0.5);
+    
+    margin: 0px auto 27px auto;
+    text-align: center;
+   
+}
