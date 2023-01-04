@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
     url('../fonts/Raleway-Regular.ttf') format('ttf');
     font-style: normal;
@@ -8,22 +8,38 @@
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'Raleway';
     src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
     font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
+
 @font-face {
-    font-family: 'OpenSans';
-    src: local('OpenSans') url('../fonts/OpenSans-SemiBold.ttf') format('ttf');
+    font-family: 'Raleway';
+    src:url('../fonts/Raleway-Medium.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans') url('../fonts/OpenSans-Bold.ttf') format('ttf');
     font-style: normal;
     font-weight: 600;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
     font-style: normal;
     font-weight: 400;

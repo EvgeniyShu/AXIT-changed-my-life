@@ -1,9 +1,7 @@
 .social{
-    background-color:#f8efef ;
-
-   
+    background-color:var(--pink) ;
 }
-.social__border{
+.social__wrapper{
     display:flex;
     flex-flow:row wrap;
     gap: 30px;
@@ -12,46 +10,109 @@
     width:39%;
     display:flex;
     flex-flow:column wrap;
-    
-    
-   
 }
-.social__h4{
+.social__text-h4{
     display: flex;
     margin:2px 0px 18px 0px;
     flex:0 1 60px;   
  
-font-family: 'OpenSans',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-align-items: center;
-color:#333333;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    
+color:var(--black);
 
 }
-.social__p{
+.social__text-p{
     display: flex;
     margin: 0;
     flex:0 1 50px;
     max-width: 470px;
 
-    font-family: 'Raleway',sans-serif;
-   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
    
-    color: #86878B 
+    color: var(--grey);
 }
-.icon_frame{
+.links__frame{
     width:57%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: auto;
+    flex-flow: row space-between;
+    gap: 30px;
 }
-.icon{
-    width: 70px;
-    height: 70px;  
+.links__icon{
+    max-width: 70px;
+    max-height: 70px; 
+    border-radius: 10%; 
 }
-.icon:hover{
+.links__icon:hover{
     cursor: pointer;
+}
+@media screen and (max-width:1200px){
+    .social__wrapper{
+        gap: 13px;
+    }
+   .social__text-h4{
+    margin:2px 0px 13px 0px;
+    font-size: 18px;
+   } 
+   .social__text-p{
+    font-size: 14px;
+   }
+   .links__frame{
+    gap: 20px;
+   }
+   .links__icon{
+    max-width: 64px;
+    max-height: 64px; 
+   }
+}
+@media screen and (max-width:998px){
+    .social__wrapper{
+    flex-flow:column wrap;
+    }
+    .social__text{
+        width:100%;
+        flex-flow:row nowrap;
+        justify-content: center;
+    } 
+    .social__text-h4, .social__text-p{
+        flex: auto;
+        width:50%; 
+    }
+    .links__frame{
+        width:100%;
+        justify-content: center;
+    }  
+}
+@media screen and (max-width:580px){
+    .social__text{
+        width:100%;
+        flex-flow:column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .social__text-p{
+        width:100%;
+        flex:0 1 10px; 
+    }
+    
+    .links__frame{
+        gap: 17px;
+       }
+    .links__icon{
+        max-width: 26px;
+        max-height: 26px; 
+       }
 }

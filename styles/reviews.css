@@ -1,26 +1,53 @@
 .reviews__cards{
-    
+    width:100%;
     display:flex;
-    justify-content: space-between wrap;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
     gap: 30px;
-    margin: 83px 0px 64px 0px;
+    margin-top: 12px;
+    padding-bottom: 14px;
 }
 .reviews__cards__border{
     display:flex;
     flex-flow: column-reverse ;
-    width:28.7%;
+    width:31%;
     
 }
 .reviews__cards__border__about{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 30px;
 }
 .reviews__cards__border__about__text{
-    width:calc(100%-70px)
+    width:calc(100%-70px);
+}
+.reviews__cards__border__about__text-name{
+    margin: 0px auto 15px auto;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: var(--black);
+}
+.reviews__cards__border__about__text-job{
+    margin: 0;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+color: var(--black);
+
 }
 .reviews__cards__border__about-img{
+    
     width: 70px;
     height: 70px;
 }
@@ -30,16 +57,74 @@
     max-height: 170px;
     overflow: hidden;
     flex-basis: 100%;
-    padding: 38px 5px 37px 5px;
-    margin: 0;
+    padding: 20px 20px;
+    margin: 0px 0px 66px 0px;
+
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+text-align: center;
+
+color: var(--grey);
 }
 
-.reviews__cards__border__opinion:before{
+.reviews__cards__border__opinion::after{
     width: 30px;
     height: 20px; 
     content: "";
+    display: block;
+    flex-flow: row-reverse wrap;
     border: 1px solid transparent;
     border-top: 1px solid #e2e2e2;
-    display: inline-block;
+    display: block;
     transform: rotate(-180deg);
+}
+.reviews__cards-label,.reviews__cards-input{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    .reviews__cards{
+    gap:20px;
+    }
+    .reviews__cards__border__about__text-name{
+    font-size: 18px;
+    }
+    .reviews__cards__border__about__text-job{
+    font-size: 14px;
+    }
+    .reviews__cards__border__opinion{
+    font-size: 14px;
+    }
+}
+@media screen and (max-width:998px){
+    .reviews__cards__border__about__text-name{
+        font-size: 14px;
+    }  
+    
+}
+@media screen and (max-width:770px){
+    .reviews__cards-label,.reviews__cards-input{
+        display: block;
+    }
+
+    .reviews__cards__border{
+       margin: 0 auto;
+        width: 80%;
+    }
+    input[type=radio]:checked +.reviews__cards-label{
+        display: none;
+    }
+    #review-1,#review-2,#review-3{
+        display: none;
+    }
+#card-btn-1:checked~#review-1,
+#card-btn-2:checked~#review-2,
+#card-btn-3:checked~#review-3{
+    display: block;
+}
+
 }
