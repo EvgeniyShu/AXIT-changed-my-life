@@ -23,7 +23,7 @@ left: -46.5px;
 }
 @media screen and (max-width:1200px){
 .header__logo{
-position: static;
+left: 115.5px;
 }
 }  
 
@@ -80,9 +80,14 @@ text-transform: capitalize;
     #menu__toggle{
         display: none;
     }
+    @media screen and (max-width:998px){
+    .header__logo{
+      left: 0px;
+      }
+    }
 
     @media screen and (max-width:770px){
-        .burger-menu{
+              .burger-menu{
             display: block;
             width: 80%;  
         }
@@ -128,7 +133,7 @@ text-transform: capitalize;
             
           }
           .header__menu-item:hover {
-            background-color: #CFD8DC;
+            background-color: var(--black);
           }
           
           #menu__toggle:checked ~ .menu__btn > span {
@@ -152,6 +157,13 @@ text-transform: capitalize;
             align-self: start;
             left: 0;
           }
-
-
+}
+@media screen and (max-width:580px){
+  .header__icon-img{
+    height: 50px;
+    width: 130px;
+  }
+  .header__logo{
+    left: 20px;
     }
+}

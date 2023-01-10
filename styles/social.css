@@ -61,11 +61,12 @@ color:var(--black);
 }
 @media screen and (max-width:1200px){
     .social__wrapper{
-        gap: 13px;
+        gap: 20px;
     }
    .social__text-h4{
     margin:2px 0px 13px 0px;
     font-size: 18px;
+    flex:0 1;
    } 
    .social__text-p{
     font-size: 14px;
@@ -102,6 +103,9 @@ color:var(--black);
         flex-flow:column nowrap;
         justify-content: center;
         align-items: center;
+    }
+    .social__text-h4{
+        padding: 30px; 
     }
     .social__text-p{
         width:100%;

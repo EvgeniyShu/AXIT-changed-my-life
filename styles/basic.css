@@ -10,7 +10,7 @@
 
 html{
     width: 100%;
-    min-width: 375px;
+    min-width: 320px;
     max-width: 1920px;
     background-color: var(--white);
    margin: 0 auto;

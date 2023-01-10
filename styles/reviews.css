@@ -115,16 +115,14 @@ color: var(--grey);
        margin: 0 auto;
         width: 80%;
     }
-    input[type=radio]:checked +.reviews__cards-label{
-        display: none;
-    }
-    #review-1,#review-2,#review-3{
-        display: none;
-    }
-#card-btn-1:checked~#review-1,
+    #card-btn-1:checked~#review-1,
 #card-btn-2:checked~#review-2,
 #card-btn-3:checked~#review-3{
     display: block;
 }
+    #review-1,#review-2,#review-3{
+       display: none;
+    }
+
 
 }

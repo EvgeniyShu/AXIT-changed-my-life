@@ -127,6 +127,9 @@ text-transform: uppercase;
 }
 
 @media screen and (max-width:1200px){
+    .banner{
+        height: 693px;
+    }
 .banner__text{
     padding-left: 100px;
     width: 45.7%;
@@ -161,6 +164,9 @@ text-transform: uppercase;
 }
 
 @media screen and (max-width:998px){
+    .banner{
+        height: 950px;
+    }
     .banner__wrapper{
         flex-flow: column nowrap;
     }
@@ -193,8 +199,12 @@ text-transform: uppercase;
 }
 @media screen and (max-width:580px){
     .banner__text{
-        align-items: center;
+        text-align: center;
         justify-content: center;
+        padding-top: 84px;
+    }
+    .banner__text__h1::after{
+        margin:41px auto 0px auto;
     }
     .banner__text__icon{
         display: none;
@@ -205,5 +215,6 @@ text-transform: uppercase;
     }
     .banner__form__border-header{
         font-size: 14px;
+       
     }
 }
