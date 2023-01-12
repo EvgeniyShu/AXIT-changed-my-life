@@ -1,0 +1,14 @@
+
+    $white:#ffffff;
+    $black:#000000;
+    $coral:#EC7979;
+    $red:#ab4949;
+    $grey:#86878B;
+    $ltgrey:#BDBDBD;
+    $pink:#f8efef;
+    $bgrpricing:#f5f5f5;
+    $grayborder:#c6cbcd;
+
+    @mixin header-margin{
+        margin: 50px auto 40px auto; 
+    }
