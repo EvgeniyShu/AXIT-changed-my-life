@@ -1,62 +1,105 @@
 .footer{
     background-color: $black;
-    box-sizing: border-box;
-}
-.footer__icon_frame{
-    display: flex;
-    width:100%;
-    gap: 32.8px;
+&-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.5fr;
+    padding-bottom: 67px;
+        
     
+}
+&__location{
+    
+    display: inline-block;
     align-items: center;
     justify-content: center;
-}
-.footer__icon_frame::before{
-    content: ' ';
-display: flex;
-padding: 44.1px 0px;
-width:1px;
-}
-
-.footer__icon{
-    max-width: 53.2px;
-    max-height: 53.2px;
+    text-align: center;
     
-    border-radius: 50%;
 }
-.footer__icon:hover{
-    cursor: pointer;
+&__social{
+    
+    text-align: center;
+    justify-self: center;
+&__icon_frame{
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    grid-gap: 0px 42px;
+    }
 }
-.footer__p{
-    color: $grey;
-    opacity: .5;
-    margin: 0;
-    padding:27px 0px;
+&__about{
+    
     text-align: center;
 }
+&__copyright{
+    display: block;
+    margin: 0;
+    padding: 24px;
+    background-color: $footer-grey;
+& p{
+    max-width: 370px;
+    margin: 0 auto;
+}
+}
+}
+.footer__h3{
+    padding-top: 71px;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+text-transform: uppercase;
+}
+.footer__p{
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+text-transform: capitalize;
+}
+.footer__icon{
+    height: 30px;
+    width: 30px;
+        
+}
+.gray-text{
+    color: $gray-text;
+}
 @media screen and (max-width:1200px){
-    .footer__icon{
-        max-width: 45px;
-        max-height: 45px;
-}
-.footer__icon_frame{
-     gap: 27px;
-}
+    .footer-wrap{
+        padding-bottom: 43px;
+    }
+    .footer__h3{
+        padding-top: 46px;    
+    }
+    .footer__copyright{
+        padding: 14px;
+    }
+
 }
 
+
 @media screen and (max-width:998px){
-    .footer__icon_frame::before{
-    display: none;
+    .footer-wrap{
+        padding-bottom: 41px;
     }
+    .footer__h3{
+        padding-top: 43px;    
+    }
+    .footer__copyright{
+        padding: 10px;
+    } 
 }
 @media screen and (max-width:580px){
-    .footer__icon_frame{
-        gap:17px;
-    }
-    .footer__icon{
-        max-width:26px;
-        max-height: 26px;
-    }
-    .footer__p{
-        font-size: 14px;
-    }
+    .footer-wrap{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(3, 0.5fr);
+        padding-bottom: 67px; 
+}
 }

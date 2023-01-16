@@ -22,21 +22,21 @@
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-structurize": "^2.4.4",
     "sass": "^1.57.1"
+  },"parcel-plugin-structurize": {
+  "rules": [
+    {
+    "match": "*.{ttf,woff2}",
+    "folder": "fonts"
+    },
+    {
+    "match": "*.{css,map.css}",
+    "folder": "css"
   },
-  "parcel-plugin-structurize": {
-    "rules": [
-      {
-        "match": "*.{css,css.map}",
-        "folder": "style"
-      },
-      {
-        "match": "*.{jpg,png,webp,svg}",
-        "folder": "images"
-      },
-      {
-        "match": "*.{ttf,woff2}",
-        "folder": "fonts"
-      }
-    ]
-  }
+  {
+  "match": "*.{png,svg,jpg,jpg2,jpeg,webp,bmp,webm}",
+  "folder": "images"
+}
+        ]
+}
+      
 }

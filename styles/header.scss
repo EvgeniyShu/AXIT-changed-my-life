@@ -2,6 +2,7 @@
    background: $black; 
    position:sticky;
    top: 0px;
+   z-index: 10;
 }
 
 .header__wrapper{
@@ -101,8 +102,8 @@ text-transform: capitalize;
             width: 55px;
             height: 56px;
             cursor: pointer;
-            background: var(--black);
-          
+            background: $black;
+                    
           }
           .menu__btn > span,
           .menu__btn > span::before,
@@ -110,8 +111,8 @@ text-transform: capitalize;
             display: block;
             position: relative;
             width: 40px;
-            height: 5px;
-            background-color: var(--white);
+            height: 3px;
+            background-color: $white;
             transition: 0.3s;
           }
           .menu__btn > span::before {
@@ -133,7 +134,7 @@ text-transform: capitalize;
             
           }
           .header__menu-item:hover {
-            background-color: var(--black);
+            background-color: $black;
           }
           
           #menu__toggle:checked ~ .menu__btn > span {
@@ -153,9 +154,10 @@ text-transform: capitalize;
           #menu__toggle:checked ~ .header__menu  {
             display: flex;
             flex-flow: column nowrap;
-            width: 100%;
+           
             align-self: start;
             left: 0;
+            margin: 0 14%;
           }
 }
 @media screen and (max-width:580px){

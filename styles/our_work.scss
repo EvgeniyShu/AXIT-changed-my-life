@@ -37,7 +37,7 @@
         top: 45%;
         left:5%;
             
-        background: url(../images/section_our_work/creatively_design.svg) 80% 80% no-repeat;
+        background: url(../images/section_our-work/creatively_design.svg) 80% 80% no-repeat;
         z-index: 1;
 }
 }
@@ -68,7 +68,10 @@
     grid-template-rows: repeat(3, 0.5fr);
     }
     .wide{
-      
+   background: url(../images/section_our-work/Luw-black-retangle.png) 100% 100% no-repeat;
+   opacity: 1.0;
+   background-size: 100%; 
+   
     grid-row-start: 3;
    grid-row-end: 4;
    grid-column-start: 1;
@@ -77,6 +80,10 @@
     .our_work__galery:hover:before{
         background-size: 80%;
     }
+    .none{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:770px){

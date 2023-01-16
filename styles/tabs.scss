@@ -1,6 +1,7 @@
 .tabs__menu{
-    font-size: 0;
+    font-size:0;
     margin-top: 99px;
+    
 }
 
 .tabs__menu__frame{
@@ -27,9 +28,9 @@ input[type=radio]:checked +.tabs__menu__frame{
     border-radius: 5px 5px 0px 0px;
     box-sizing: border-box;
     text-align: center;
-   
+    border-bottom: none;
+      
 }
-
 
 .tabs__menu__frame:hover{
     opacity: .8;

@@ -71,16 +71,19 @@ text-align: center;
 color: $grey;
 }
 
-.reviews__cards__border__opinion::after{
-    width: 30px;
-    height: 20px; 
-    content: "";
+.polygon{
+    
+    width: 20px;
+    height: 40px; 
     display: block;
-    flex-flow: row-reverse wrap;
-    border: 1px solid transparent;
-    border-top: 1px solid #e2e2e2;
-    display: block;
-    transform: rotate(-180deg);
+    border: 1px solid #E2E2E2;
+    background-color: #E2E2E2;
+    transform: rotate(45deg); 
+    position: relative;
+    z-index: -1;
+    top:-22%;
+    left: 22%;
+    
 }
 .reviews__cards-label,.reviews__cards-input{
     display: none;
@@ -107,22 +110,37 @@ color: $grey;
     
 }
 @media screen and (max-width:770px){
-    .reviews__cards-label,.reviews__cards-input{
-        display: block;
-    }
 
-    .reviews__cards__border{
-       margin: 0 auto;
-        width: 80%;
+.reviews__cards-label{
+    display: block;
+    border: 1px solid $grey;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+
     }
-    #card-btn-1:checked~#review-1,
+   .reviews__cards-input:checked + label{
+    background-color: $grey;
+    }
+.reviews__cards-label:hover{
+    cursor: pointer;
+}
+.reviews__cards-label>input[type="radio"]{
+    display: none;
+}
+
+.reviews__cards__border{
+     width:100%;
+     display: none;
+}
+
+ 
+#card-btn-1:checked~#review-1,
 #card-btn-2:checked~#review-2,
 #card-btn-3:checked~#review-3{
-    display: block;
+    display: flex;
 }
-    #review-1,#review-2,#review-3{
-       display: none;
-    }
+
 
 
 }
