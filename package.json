@@ -1,0 +1,42 @@
+{
+  "name": "axit-scss",
+  "version": "1.0.0",
+  "description": "This is my first experience of creating a website from a ready-made layout using HTML and CSS technologies. The site is a page-by-page, contains the following sections:\r Header\r Social\r Tabs\r About\r Pricing\r Reviews\r Contact\r Footer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniyShu/AXIT-SCSS.git"
+  },
+  "author": "Evgeniy Shulezhko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniyShu/AXIT-SCSS/issues"
+  },
+  "homepage": "https://github.com/EvgeniyShu/AXIT-SCSS#readme",
+  "keywords": [],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-structurize": "^2.4.4",
+    "sass": "^1.57.1"
+  },"parcel-plugin-structurize": {
+  "rules": [
+    {
+    "match": "*.{ttf,woff2}",
+    "folder": "fonts"
+    },
+    {
+    "match": "*.{css,map.css}",
+    "folder": "css"
+  },
+  {
+  "match": "*.{png,svg,jpg,jpg2,jpeg,webp,bmp,webm}",
+  "folder": "images"
+}
+        ]
+}
+      
+}
